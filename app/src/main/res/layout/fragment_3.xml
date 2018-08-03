@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar_login"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2196f3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教学班成绩管理"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30sp">
+
+
+        <EditText
+            android:id="@+id/fragment3_ettext"
+            android:layout_width="230sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:padding="8sp"
+            android:textSize="18sp"
+            android:hint="请输入学号"
+            />
+
+        <Button
+            android:id="@+id/fragment3_search"
+            android:text="搜索"
+            android:textColor="@android:color/white"
+            android:layout_width="65sp"
+            android:layout_height="41sp"
+            android:background="@drawable/button_bg3"
+            android:layout_marginLeft="5sp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fragment3_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:layout_margin="5sp"/>
+
+            <TextView
+                android:id="@+id/fragment3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:layout_margin="5sp"/>
+
+            <TextView
+                android:id="@+id/fragment3_major"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:layout_margin="5sp"/>
+
+            <TextView
+                android:id="@+id/fragment3_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:layout_margin="5sp"/>
+
+            <TextView
+                android:id="@+id/fragment3_thorygrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:layout_margin="5sp"/>
+
+            <TextView
+                android:id="@+id/fragment3_labgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:layout_margin="5sp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

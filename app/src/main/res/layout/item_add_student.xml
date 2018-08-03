@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/item_add_student_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="学号：20151120266"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/item_add_student_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：金彪"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/item_add_student_major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="专业：软件工程"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/item_add_student_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电话：18208797254"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="5sp">
+
+                <Button
+                    android:id="@+id/item_add_student_alter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:layout_marginTop="3sp"
+                    android:text="修改"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_bg"/>
+
+                <Button
+                    android:id="@+id/item_add_student_delete"
+                    android:layout_marginTop="8sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:textSize="16sp"
+                    android:text="删除"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_bg2"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
